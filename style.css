@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans','Dancing Script';
+}
+/* Navbar Design Starts Here */
+.navbar{
+    background-color: #1da278;
+    padding: 1% 7%;
+    text-align: center;
+}
+.profile-img{
+    margin-top: 11px;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.nav-name{
+    color:#fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.nav-menu a{
+    display: block;
+    background:#1f3641;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-menu a:hover{
+    background: #088da5;
+}
+.navbar::after{
+    content: "";
+    clear: both;
+    display:table;
+}
+
+/* For mobile: */
+[class*="col-"]{
+    width: 100%;
+}
+/* Navbar Design Ends Here */
+
+/*Profile Design Starts Here*/
+.profile{
+    text-align: center;
+    position: relative;
+    padding: 120px 30px;
+}
+.profile img{
+    width: 80px;
+    height: 80px;
+}
+.profile .top-img{
+    position:absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+}
+.profile .top-img:hover{
+    transform: rotate(360deg);
+}
+.profile .bottom-img{
+    position:absolute;
+    left: 60px;
+    bottom: 20px;
+    transition: transform 2s;
+}
+.profile .bottom-img:hover{
+    transform: rotate(360deg);
+}
+.profile-dec h1{
+    font-family:'Dancing Script';
+}
+.profile-dec p{
+    text-align: center;
+    color: gray;
+    margin: 20px 0 20px 0;
+}
+/*Profile Design Ends Here*/
+
+/* About Me Design Starts Here  */
+.about-me{
+    background: #1da278;
+    padding: 20px 30px;
+}
+.about-me h2{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.dotted-hr{
+    border: 2px dotted #fff;
+    width: 5%;
+    
+    margin: 0 auto;
+}
+.about-me-profile{
+    padding: 20px 0 20px 0;
+}
+.about-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: 155px;
+}
+.my-dec p{
+    text-align: justify;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+}
+.my-dec hr{
+    border: 1px solid #fff;
+}
+.dow-cv{
+    background: #1f3641;
+    padding:10px 5px;
+    border-radius: 5px;
+    border: 0;
+   margin-top: 10px;
+   color: #fff;
+   margin-left: 39%;
+   cursor: pointer;
+}
+.dow-cv:hover{
+    background:#088da5;
+}
+
+/* About Me Design Ends Here  */
+
+/* Information Design Starts Here  */
+.information{
+
+}
+.experience{
+    background-color: #3a38ae;
+    color: #fff;
+    margin: 10px 8px;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.experience:hover{
+   box-shadow: 2px 2px  2px black;
+}
+.experience .info-img{
+    border-radius: 100%;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+.info-img{
+    width: 60px;
+    height: 60px;
+    margin-left: 46%;
+}  
+.ex{
+    margin-left: 50px;
+    height: 300px
+}
+h3{
+    background:#1f3641;
+    text-align: center;
+    margin: 5px 5px;
+}
+.ex p{
+    padding: 2px 0;
+    font-size: 15px;
+}
+hr{
+    margin: 0 0 5px 0 ;
+}
+.ex li{
+    margin: 8px;
+}
+
+/* Information Design Ends Here */
+
+/* My Contact Design Starts Here  */
+.contact-container{
+    background: rgb(191, 37, 145);
+    color: #fff;
+    text-align: center;
+    padding: 20px
+}
+h2{
+    margin-top: 20px;
+}
+li {
+    display: list-item;
+    list-style-position: inside;
+    text-align: justify;
+    margin: 10px
+  }
+input, textarea{
+    width: 320px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.name{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+textarea{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: #1f3641;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background:#088da5;
+}
+.social-btn{
+    width: 120px;
+    margin: 0 auto;
+}
+.media-btn{
+    width: 50px;
+    height:50px;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+.media-btn:hover{
+    background:#c5e250;
+}
+  /* My Contact Design Ends Here  */
+
+  /* Footer Design Starts Here  */
+footer{
+    background: #000;
+    color: #fff;
+  }
+.footer-nav li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+}
+   /* Footer Design Ends Here  */
+
+

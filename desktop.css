@@ -1,0 +1,83 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* Navbar Design Starts Here */
+.navbar{
+  display: flex;
+}
+.profile{
+  margin-top: 10px;
+}
+.nav-name h1{
+  text-align: right;
+}
+.nav-menu a{
+  display: inline-block;
+  background: none;
+  margin-top: 10px;
+}
+/* Navbar Design Ends Here */
+
+/* Profile Design Starts Here */
+.profile img{
+  width: 100px;
+  height: 100px;
+}
+/* Profile Design Ends Here */
+
+/* About Me Design Starts Here  */
+.about-me{
+  text-align: center;
+}
+.about-me-profile{
+  float: left;
+  text-align: center;
+  margin-top: 100px;
+}
+.my-dec{
+  display:inline-block;
+  margin-top:50px;
+}
+.my-dec p{
+  text-align:left;
+  margin:10px 0 10px 0;
+}
+.dow-cv{
+  margin-left: 8%;
+}
+
+/* About Me Design Ends Here  */
+
+/* Information Design Starts Here  */
+.information{
+  display: flex;
+}  
+/* Information Design Ends Here */
+
+/* My Contact Design Starts Here  */
+.contact-container{
+  display: flex;
+}
+/* My Contact Design Ends Here  */
+
+/* Footer Design Starts Here  */
+
+footer{
+  display: flex;
+}
+.copyright{
+  margin-top: 20px;
+}
+/* Footer Design Starts Here  */
